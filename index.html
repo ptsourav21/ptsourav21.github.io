@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Purnendu Portfolio</title>
     <link rel ='stylesheet' href="style.css">
+    <script src="https://kit.fontawesome.com/c1701c1d35.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Header Section-->
@@ -15,8 +16,8 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Interests</a></li>
+                    <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -26,17 +27,17 @@
             </div>
         </div>
     </div>
-    <!--About Section-->
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.jpg" alt="Portrait Image">
+                    <img src="images/portrait.png" alt="Portrait Image">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <!-- Edit About Me Paragraph -->
-                    <p>Fresher, proficient in web development, machine learning, and research. Authored two conference paper in the field of NLP and Computer Vision. Skilled in various programming languages and various libraries. Seeking new opportunities to drive innovation and contribute to exciting projects</p><br><br>
+                    <p class="about-para">Fresher, proficient in web development, machine learning, and research. Authored two conference paper in the field of NLP and Computer Vision. Skilled in various programming languages and various libraries. Seeking new opportunities to drive innovation and contribute to exciting projects</p><br><br>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
                         <p class="tab-links" onClick="opentab('experiences')">Experiences</p>
@@ -45,16 +46,16 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Languages</span><br><p>C++, Java, Python, C#, Markup Language (HTML, CSS), Scripting Language (PHP, JavaScript)</p></li>
-                            <li><span>Databases</span><br><p>MySQL, MSSQL, NoSQL(Firebase)</p></li>
-                            <li><span>Libraries</span><br><p>Tensorflow, Keras, Pandas, NumPy, PyTorch, Matplotlib</p></li>
-                            <li><span>Frameworks</span><br><p>ASP.net, ASP.core</p></li>
-                            <li><span>Developer Tools</span><br><p>Git, Google Colab, Kaggle, Android studio, MATLAB, VS Code, Visual Studio, NetBeans</p></li>
+                            <li><span>Languages</span><br><p>C++ | Java | Python | C# | Markup Language (HTML | CSS) | Scripting Language (PHP | JavaScript)</p></li>
+                            <li><span>Databases</span><br><p>MySQL | MSSQL | NoSQL(Firebase)</p></li>
+                            <li><span>Libraries</span><br><p>Tensorflow | Keras | Pandas | NumPy | PyTorch | Matplotlib</p></li>
+                            <li><span>Frameworks</span><br><p>ASP.net | ASP.core</p></li>
+                            <li><span>Developer Tools</span><br><p>Git | Google Colab | Kaggle | Android studio | MATLAB | VS Code, Visual Studio | NetBeans | XAMPP</p></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id ="experiences">
                         <ul>
-                            <li><span>Professional Experiences</span><br><p>Fresher Looking For Jobs</p></li>
+                            <li><span>Professional Experiences</span><br><p>Fresher | Open For Jobs</p></li>
                             
                         </ul>
                     </div>
@@ -66,14 +67,37 @@
                     </div>
                     <div class="tab-contents" id="academics">
                         <ul>
-                            <li><span>University</span><br><p>Ahsanullah University of Science & Tchnology <br>Computer Science & Engineering . Bachelor Of Science (B.Sc)</p></li>
-                            <li><span>College</span><br><p>Notre Dame College, Dhaka <br> Science . Higher Secondary School Certificate(H.S.C)</p></li>
+                            <li><span>University</span><br><p>Ahsanullah University of Science & Tchnology <br><i>Computer Science & Engineering . Bachelor Of Science (B.Sc)</i></p></li>
+                            <li><span>College</span><br><p>Notre Dame College, Dhaka <br><i> Science . Higher Secondary School Certificate(H.S.C)</i></p></li>
                             <li><span>High School</span><br><p>Government Jubilee High School, Sunamganj<br>
-                            Science . Secondary School Certificate(S.S.C)</p></li>
+                            <i>Science . Secondary School Certificate(S.S.C)</i></p></li>
                         </ul>
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </div>
+    <!-- Intersets -->
+    <div id="interests">
+        <div class="container">
+            <h1 class="sub-title">Area Of Interests</h1>
+            <div class="interests-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I architect complete web solutions, harmonizing frontend allure with backend functionality. Crafting intuitive interfaces for user engagement while ensuring robust backend performance. Skillfully managing databases to ensure data integrity and accessibility. Committed to honing expertise for comprehensive, seamless web experiences.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Machine Learning</h2>
+                    <p>I develop machine learning solutions, merging algorithms with streamlined data processing. Create user-friendly interfaces for seamless interaction. Ensure reliable data pipelines and accessibility. Committed to continuous learning for impactful machine learning experiences.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-searchengin"></i>
+                    <h2>Research</h2>
+                    <p>With two conference papers authored, I'm keen on pursuing more research opportunities. My passion for web development and machine learning fuels a drive to contribute further. Seeking avenues to innovate, I am committed to pushing boundaries and making meaningful advancements in these dynamic fields.</p>
+                </div>
             </div>
         </div>
     </div>
