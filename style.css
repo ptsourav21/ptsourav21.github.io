@@ -339,8 +339,6 @@ nav .fas{
 @media only screen and (max-width: 768px){
     #header{
         background: url(images/smallbg.png);
-        background-size: cover;
-        background-position: center;
     }
     .header-text{
         margin-top: 100%;
