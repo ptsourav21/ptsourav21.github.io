@@ -1,216 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Purnendu's Portfolio</title>
-    <link rel ='stylesheet' href="style.css">
-    <script src="https://kit.fontawesome.com/c1701c1d35.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c1701c1d35.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!--Header Section-->
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logo.png" alt="Logo" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#interests">Interests</a></li>
-                    <li><a href="#works">Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Web Developer | Machine Learning Enthusiast</p>
-                <h1>Hi there, <br>I'm <span>Purnendu</span> Talukder</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" alt="Logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer | Machine Learning Enthusiast</p>
+          <h1>Hi there, <br />I'm <span>Purnendu</span> Talukder</h1>
         </div>
+      </div>
     </div>
     <!-- About Section -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/Purnendu1.png" alt="Portrait Image">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <!-- Edit About Me Paragraph -->
-                    <p class="about-para">Fresher, proficient in web development, machine learning, and research. Authored two conference paper in the field of NLP and Computer Vision. Skilled in various programming languages and various libraries. Seeking new opportunities to drive innovation and contribute to exciting projects</p><br><br>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onClick="opentab('experiences')">Experiences</p>
-                        <p class="tab-links" onClick="opentab('publications')" >Publications</p>
-                        <p class="tab-links" onClick="opentab('academics')">Academics</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Languages</span><br><p>C++ | Java | Python | C# | Markup Language (HTML | CSS) | Scripting Language (PHP | JavaScript)</p></li>
-                            <li><span>Databases</span><br><p>MySQL | MSSQL | NoSQL(Firebase)</p></li>
-                            <li><span>Libraries</span><br><p>Tensorflow | Keras | Pandas | NumPy | PyTorch | Matplotlib</p></li>
-                            <li><span>Frameworks</span><br><p>ASP.net | ASP.core</p></li>
-                            <li><span>Developer Tools</span><br><p>Git | Google Colab | Kaggle | Android studio | MATLAB | VS Code, Visual Studio | NetBeans | XAMPP</p></li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id ="experiences">
-                        <ul>
-                            <li><span>Professional Experiences</span><br><p>Looking for opportunities</p></li>
-                            
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id ="publications">
-                        <ul>
-                            <li><span>Field Of Computer Vision</span><br><p>"Analysis of Automated Skin Disease Classification Exploiting Different Machine Learning Techniques"</p></li>
-                            <li><span>Field Of Natural Language Processing</span><br><p>"An Empirical Study on Bengali News Headline Categorization Leveraging Different Machine Learning Techniques"</p></li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="academics">
-                        <ul>
-                            <li><span>University</span><br><p>Ahsanullah University of Science & Tchnology, Dhaka <br><i>Computer Science & Engineering . Bachelor Of Science (B.Sc)</i></p></li>
-                            <li><span>College</span><br><p>Notre Dame College, Dhaka <br><i> Science . Higher Secondary School Certificate(H.S.C)</i></p></li>
-                            <li><span>High School</span><br><p>Government Jubilee High School, Sunamganj<br>
-                            <i>Science . Secondary School Certificate(S.S.C)</i></p></li>
-                        </ul>
-                    </div>
-                </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Purnendu1.png" alt="Portrait Image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <!-- Edit About Me Paragraph -->
+            <p class="about-para">
+              Fresher, proficient in web development, machine learning, and
+              research. Authored two conference paper in the field of NLP and
+              Computer Vision. Skilled in various programming languages and
+              various libraries. Seeking new opportunities to drive innovation
+              and contribute to exciting projects
+            </p>
+            <br /><br />
+            <div class="tab-titles">
+              <p class="tab-links active-link" onClick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onClick="opentab('experiences')">
+                Experiences
+              </p>
+              <p class="tab-links" onClick="opentab('publications')">
+                Publications
+              </p>
+              <p class="tab-links" onClick="opentab('academics')">Academics</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Languages</span><br />
+                  <p>
+                    C++ | Java | Python | C# | Markup Language (HTML | CSS) |
+                    Scripting Language (PHP | JavaScript)
+                  </p>
+                </li>
+                <li>
+                  <span>Databases</span><br />
+                  <p>MySQL | MSSQL | NoSQL(Firebase)</p>
+                </li>
+                <li>
+                  <span>Libraries</span><br />
+                  <p>
+                    Tensorflow | Keras | Pandas | NumPy | PyTorch | Matplotlib
+                  </p>
+                </li>
+                <li>
+                  <span>Frameworks</span><br />
+                  <p>ASP.net | ASP.core</p>
+                </li>
+                <li>
+                  <span>Developer Tools</span><br />
+                  <p>
+                    Git | Google Colab | Kaggle | Android studio | MATLAB | VS
+                    Code, Visual Studio | NetBeans | XAMPP
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experiences">
+              <ul>
+                <li>
+                  <span>Professional Experiences</span><br />
+                  <p>Looking for opportunities</p>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="publications">
+              <ul>
+                <li>
+                  <span>Field Of Computer Vision</span><br />
+                  <p>
+                    "Analysis of Automated Skin Disease Classification
+                    Exploiting Different Machine Learning Techniques"
+                  </p>
+                </li>
+                <li>
+                  <span>Field Of Natural Language Processing</span><br />
+                  <p>
+                    "An Empirical Study on Bengali News Headline Categorization
+                    Leveraging Different Machine Learning Techniques"
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="academics">
+              <ul>
+                <li>
+                  <span>University</span><br />
+                  <p>
+                    Ahsanullah University of Science & Tchnology, Dhaka <br /><i
+                      >Computer Science & Engineering . Bachelor Of Science
+                      (B.Sc)</i
+                    >
+                  </p>
+                </li>
+                <li>
+                  <span>College</span><br />
+                  <p>
+                    Notre Dame College, Dhaka <br /><i>
+                      Science . Higher Secondary School Certificate(H.S.C)</i
+                    >
+                  </p>
+                </li>
+                <li>
+                  <span>High School</span><br />
+                  <p>
+                    Government Jubilee High School, Sunamganj<br />
+                    <i>Science . Secondary School Certificate(S.S.C)</i>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Intersets -->
     <div id="interests">
-        <div class="container">
-            <h1 class="sub-title">Area Of Interests</h1>
-            <div class="interests-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>I architect complete web solutions, harmonizing frontend allure with backend functionality. Crafting intuitive interfaces for user engagement while ensuring robust backend performance. Skillfully managing databases to ensure data integrity and accessibility. Committed to honing expertise for comprehensive, seamless web experiences.</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-brain"></i>
-                    <h2>Machine Learning</h2>
-                    <p>I develop machine learning solutions, merging algorithms with streamlined data processing. Create user-friendly interfaces for seamless interaction. Ensure reliable data pipelines and accessibility. Committed to continuous learning for impactful machine learning experiences.</p>
-                </div>
-                <div>
-                    <i class="fa-brands fa-searchengin"></i>
-                    <h2>Research</h2>
-                    <p>With two conference papers authored, I'm keen on pursuing more research opportunities. My passion for web development and machine learning fuels a drive to contribute further. Seeking avenues to innovate, I am committed to pushing boundaries and making meaningful advancements in these dynamic fields.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">Area Of Interests</h1>
+        <div class="interests-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I architect complete web solutions, harmonizing frontend allure
+              with backend functionality. Crafting intuitive interfaces for user
+              engagement while ensuring robust backend performance. Skillfully
+              managing databases to ensure data integrity and accessibility.
+              Committed to honing expertise for comprehensive, seamless web
+              experiences.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-brain"></i>
+            <h2>Machine Learning</h2>
+            <p>
+              I develop machine learning solutions, merging algorithms with
+              streamlined data processing. Create user-friendly interfaces for
+              seamless interaction. Ensure reliable data pipelines and
+              accessibility. Committed to continuous learning for impactful
+              machine learning experiences.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-searchengin"></i>
+            <h2>Research</h2>
+            <p>
+              With two conference papers authored, I'm keen on pursuing more
+              research opportunities. My passion for web development and machine
+              learning fuels a drive to contribute further. Seeking avenues to
+              innovate, I am committed to pushing boundaries and making
+              meaningful advancements in these dynamic fields.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <!-- My Works -->
     <div id="works">
-        <div class="container">
-            <h1 class="sub-title">My Works</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/work-1.png" alt="Project1">
-                    <div class="layer">
-                        <h3>Elearn Management</h3>
-                        <p>This is an eLearning site where learners can buy tutorial, watch videos and learn skills.</p>
-                        <a href="https://github.com/ptsourav21/ELearnManagementSystem" target=”_blank”><i class = "fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-2.png" alt="Project2">
-                    <div class="layer">
-                        <h3>Tech Review Point</h3>
-                        <p>This is a review based website where people get original review of the buyer of a product. They can also write a review for the product they bought. In one sentence this is an integrated site for product enthusiastic. </p>
-                        <a href="https://github.com/ptsourav21/TechReviewPoint" target=”_blank”><i class = "fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png" alt="Project3">
-                    <div class="layer">
-                        <h3>Home Rent</h3>
-                        <p>This is an android studio project. It helps people post their home for rent and others find their suitable home. </p>
-                        <a href="https://github.com/ptsourav21/HomeRent" target=”_blank”><i class = "fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="Project1" />
+            <div class="layer">
+              <h3>Elearn Management</h3>
+              <p>
+                This is an eLearning site where learners can buy tutorial, watch
+                videos and learn skills.
+              </p>
+              <a
+                href="https://github.com/ptsourav21/ELearnManagementSystem"
+                target="”_blank”"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
             </div>
-            <a href="https://github.com/ptsourav21" class="btn" target=”_blank”>See more</a>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="Project2" />
+            <div class="layer">
+              <h3>Tech Review Point</h3>
+              <p>
+                This is a review based website where people get original review
+                of the buyer of a product. They can also write a review for the
+                product they bought. In one sentence this is an integrated site
+                for product enthusiastic.
+              </p>
+              <a
+                href="https://github.com/ptsourav21/TechReviewPoint"
+                target="”_blank”"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="Project3" />
+            <div class="layer">
+              <h3>Home Rent</h3>
+              <p>
+                This is an android studio project. It helps people post their
+                home for rent and others find their suitable home.
+              </p>
+              <a href="https://github.com/ptsourav21/HomeRent" target="”_blank”"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
         </div>
+        <a href="https://github.com/ptsourav21" class="btn" target="”_blank”"
+          >See more</a
+        >
+      </div>
     </div>
     <!-- Contact-->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i> pt.purnendu@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> +8801680871602</p>
-                    <p><i class="fa-solid fa-location-pin"></i> Niketon, Dhaka</p>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/ptsourav21/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/ptsourav21" target=”_blank”><i class="fa-brands fa-github" ></i></a>
-                        <a href="https://www.researchgate.net/profile/Purnendu-Talukder" target=”_blank”><i class="fa-brands fa-researchgate"></i></a>
-                    </div>
-                    <a href="document/PurnenduTalukderResume.pdf" download class="btn btn2">Download Resume</a>
-                </div>
-                <div class="contact-right">
-                    <p>Leave a message!<p>
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id ="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> pt.purnendu@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +8801680871602</p>
+            <p><i class="fa-solid fa-location-pin"></i> Niketon, Dhaka</p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/ptsourav21/"
+                target="”_blank”"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/ptsourav21" target="”_blank”"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.researchgate.net/profile/Purnendu-Talukder"
+                target="”_blank”"
+                ><i class="fa-brands fa-researchgate"></i></a
+              ><br />
             </div>
+            <a
+              href="document/PurnenduTalukderResume.pdf"
+              download
+              class="btn btn2"
+              >Download Resume</a
+            >
+            
+          </div>
+          <div class="contact-right">
+            <p>Leave a message!</p>
+            <p></p>
+            <form
+              action="https://formsubmit.co/f9f9308502f09b325a946dd1fd69909d"
+              method="POST"
+            >
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <input
+                type="hidden"
+                name="_subject"
+                value="Purnendu's Portfolio Contact Form"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://ptsourav21.github.io/thankyou.html"
+              />
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <!-- Footer  -->
-        <div class="footer">
-            <p>&copy Purnendu Talukder 2023</p>
-        </div>
-        
+      </div>
+      <!-- Footer  -->
+      <div class="footer">
+        <div class="Visitor">
+              <a href="#contact" target="">
+                <img
+                  src="https://hitwebcounter.com/counter/counter.php?page=8814483&style=0006&nbdigits=4&type=ip&initCount=50"
+                  title="Counter Widget"
+                  alt="Visit counter For Websites"
+                  border="0"
+              /></a>
+              <p>Visitors</p>
+            </div>
+        <p>&copy Purnendu Talukder 2023</p>
+      </div>
     </div>
     <script>
-        // Script for changing the tabs in about
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+      // Script for changing the tabs in about
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
     <script>
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right="0";
-        }
-        function closemenu(){
-            sidemenu.style.right="-200px";
-        }
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxc6s5R1M0BZar-55PzgCRs9coCp1HAhd2W6JM1DRsB5F1QVRTSRUKpMMIrCh9OvZ4UaA/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message Sent Successfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                }, 3000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-</body>
+  </body>
 </html>
-
