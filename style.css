@@ -341,11 +341,15 @@ form .btn2 {
 }
 
 .Visitor a {
-  margin-right: 10px; /* Add spacing between the elements */
+  margin-right: 7px; /* Add spacing between the elements */
 }
 
 .Visitor p {
+font-size: 15px;
   margin: 0; /* Remove default margin from paragraphs */
+  background-color: rgb(27, 27, 27);
+  padding: 6px;
+  border-radius: 3px;
 }
 
 /* Thank You Page  */
