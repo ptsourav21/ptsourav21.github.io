@@ -102,10 +102,13 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   margin: 20px 0 40px;
+  gap: 20px;
 }
 .tab-titles p {
   font-size: 18px;
 }
+
+
 #academics i {
   line-height: 250%;
 }
@@ -425,16 +428,21 @@ nav .fas {
     margin-bottom: 30px;
   }
   .tab-titles p {
-    flex-basis: 100%;
-    margin: 10px 0px;
+    margin: 20px 0px;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    
     flex-basis: calc(50% - 10px);
   }
   .tab-links {
     font-size: 16px;
     margin-right: 10px;
+    background-color:#262626;
+    border-radius: 10px;
+    padding: 10px;
   }
+  .tab-links.active-link::after {
+  width: 100%;
+}
   .contact-left,
   .contact-right {
     flex-basis: 100%;
