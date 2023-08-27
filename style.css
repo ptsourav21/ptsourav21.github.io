@@ -357,8 +357,8 @@ font-size: 15px;
 
 /* Thank You Page  */
 .thanks {
+  display: flex;
   position: relative;
-  width: 100%;
   height: 100vh;
   align-items: center;
   flex-wrap: wrap;
@@ -369,10 +369,10 @@ font-size: 15px;
 }
 .centered-div {
   position: absolute;
+  align-items: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 20px;
 }
 /* Responsive */
 /* CSS for Small Screen */
